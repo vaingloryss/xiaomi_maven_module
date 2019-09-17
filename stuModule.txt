@@ -1,0 +1,7 @@
+将子模块打成jar文件，安装到本地仓库并使用
+第一步：
+将 xiaomi_daoModule 模块使用install命令安装到本地仓库
+第二步：
+在项目右边 maven 中将 xiaomi_daoModule 模块设置为ignore，然后将xiaomi_daoModule模块删除
+第三步：
+在父模块中删除对子模块的依赖，运行项目，正常工作。
